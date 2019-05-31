@@ -1,0 +1,10 @@
+server: 
+  port: 8765
+spring: 
+  application: 
+    name: eurekarabbit
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info,bus-refresh
